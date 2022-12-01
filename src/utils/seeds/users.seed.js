@@ -43,6 +43,13 @@ const users = [
         password: 'defaultuser123',
         age: '20',
     },
+    {
+        name: 'Default User 2',
+        user: 'defaultuser2',
+        email: 'defaultuser2@gmail.com',
+        password: 'defaultuser123',
+        age: '20',
+    },
 
 ]
 
