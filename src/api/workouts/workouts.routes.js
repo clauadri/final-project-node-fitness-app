@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const Workout = require('./workouts.model')
-
-router.get("/", async (req, res) => {
+const { isAuth, isAdmin } = require("../../middleware/auth");
+router.get("/",[isAdmin], async (req, res) => {
     try {
       const allWorkouts = await Workout.find().populate('exercise');
       return res.status(200).json(allWorkouts);
@@ -28,7 +28,7 @@ router.get("/name/:name",  async (req, res) => {
       return res.status(500).json("Error getting workouts by name", error);
     }
 });
-router.post("/create", async (req, res) => {
+router.post("/create",[isAuth], async (req, res) => {
     try {
       const workout = req.body;
       const newWorkout = new Workout(workout);
@@ -40,7 +40,7 @@ router.post("/create", async (req, res) => {
       return "Error creating the workout", error;
     }
 });
-router.delete("/delete/:id",  async (req, res) => {
+router.delete("/delete/:id",[isAdmin],  async (req, res) => {
     try {
       const id = req.params.id;
       await Workout.findByIdAndDelete(id);
