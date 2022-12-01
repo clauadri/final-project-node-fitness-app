@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Workout = require('./workouts.model')
 const { isAuth, isAdmin } = require("../../middleware/auth");
-router.get("/",[isAdmin], async (req, res) => {
+router.get("/", async (req, res) => {
     try {
       const allWorkouts = await Workout.find().populate('exercise');
       return res.status(200).json(allWorkouts);
