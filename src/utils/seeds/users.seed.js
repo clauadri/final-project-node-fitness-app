@@ -34,7 +34,8 @@ const users = [
         password: 'administrator123',
         age: 20,
         rol: 'admin'
-    },{
+    },
+    {
         name: 'Default User',
         user: 'defaultuser',
         email: 'defaultuser@gmail.com',
