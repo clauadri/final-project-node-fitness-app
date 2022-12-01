@@ -8,6 +8,7 @@ const connectDb = require('./src/utils/db')
 const indexRoutes = require('./src/api/index/index.routes')
 const exercisesRoutes = require('./src/api/workouts/exercises/exercises.routes')
 const workoutsRoutes = require('./src/api/workouts/workouts.routes')
+const userRoutes = require('./src/api/user/user.routes')
 
 connectDb();
 
@@ -22,9 +23,10 @@ server.use(cors());
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 
-server.use('/', indexRoutes)
-server.use('/exercises', exercisesRoutes)
-server.use('/workouts', workoutsRoutes)
+server.use('/', indexRoutes);
+server.use('/exercises', exercisesRoutes);
+server.use('/workouts', workoutsRoutes);
+server.use('/users', userRoutes);
 
 server.use((error, req, res, next) => {
   return res

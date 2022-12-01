@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Exercise = require('./exercises.model');
 const upload = require("../../../middleware/file");
-
+const { isAuth, isAdmin } = require("../../../middleware/auth");
 router.get("/", async (req, res) => {
   try {
     const allExercises = await Exercise.find();
