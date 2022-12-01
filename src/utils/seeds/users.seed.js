@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const connectDb = require("../db");
 const User = require('../../api/user/user.model')
+const bcrypt = require("bcrypt");
 
 const users = [
     {
@@ -8,7 +9,7 @@ const users = [
         user: 'AdminAdri',
         email: 'adminadri@gmail.com',
         password: 'administrator123',
-        age: 20,
+        age: '20',
         rol: 'admin'
     },
     {
@@ -16,7 +17,7 @@ const users = [
         user: 'AdminGuille',
         email: 'adminguille@gmail.com',
         password: 'administrator123',
-        age: 20,
+        age: '20',
         rol: 'admin'
     },
     {
@@ -24,7 +25,7 @@ const users = [
         user: 'AdminAngelica',
         email: 'adminangelica@gmail.com',
         password: 'administrator123',
-        age: 20,
+        age: '20',
         rol: 'admin'
     },
     {
@@ -32,7 +33,7 @@ const users = [
         user: 'AdminAlvaro',
         email: 'adminalvaro@gmail.com',
         password: 'administrator123',
-        age: 20,
+        age: '20',
         rol: 'admin'
     },
     {
@@ -40,12 +41,11 @@ const users = [
         user: 'defaultuser',
         email: 'defaultuser@gmail.com',
         password: 'defaultuser123',
-        age: 20,
+        age: '20',
     },
 
 ]
 
-const usersDocuments = users.map((user) => new User(user));
 
 connectDb()
   .then(async () => {
@@ -54,7 +54,11 @@ connectDb()
   })
   .catch((error) => console.log("Could not delete" + error))
   .then(async () => {
-    await User.insertMany(usersDocuments);
+    /* for (const user of users) {
+        user.password = bcrypt.hashSync(user.password, 10);
+    } */
+    /* const usersDocuments = users.map((user) => new User(user)); */
+    await User.create(users);
     console.log("Users added correctly ");
   })
   .catch((error) => console.log("Could not add data " + error))
