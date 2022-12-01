@@ -32,6 +32,12 @@ const exercises = [
       description: '3 x 18 repeticiones',
       rest: '7 minutos',
       img: 'https://www.cambiatufisico.com/wp-content/uploads/jalones-frontales1.jpg'
+    },
+    {
+      name: 'Press Banca F',
+      description: '3 x 20 repeticiones',
+      rest: '8 minutos',
+      img: 'https://www.cambiatufisico.com/wp-content/uploads/jalones-frontales1.jpg'
     }
 ]
 
