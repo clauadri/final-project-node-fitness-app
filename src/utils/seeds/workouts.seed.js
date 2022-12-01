@@ -10,7 +10,7 @@ const workouts = [
     },
     {
         name: 'Rutina 2',
-        exercise: ['Press Banca D']
+        exercise: ['Press Banca D', 'Press Banca A']
     }
 ]
 
