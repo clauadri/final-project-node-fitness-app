@@ -6,10 +6,12 @@ const Exercise = require("../../api/workouts/exercises/exercises.model");
 const workouts = [
     {
         name: 'Rutina 1',
+        requierements: ['Perder peso', 'Delgado'],
         exercise: ['Press Banca A', 'Press Banca B', 'Press Banca C']
     },
     {
         name: 'Rutina 2',
+        requirements: ['Crecer musculo', 'Atleta'],
         exercise: ['Press Banca D', 'Press Banca A']
     }
 ]
