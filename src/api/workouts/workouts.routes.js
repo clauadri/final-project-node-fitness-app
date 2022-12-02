@@ -29,16 +29,6 @@ router.get("/name/:name",  async (req, res) => {
     }
 });
 
-router.get("/requirements/:requirements",  async (req, res) => {
-  try {
-    const requirements = req.params.requirements;
-    const workoutByRequirement = await Workout.findOne({requirements: requirements});
-    return res.status(200).json(workoutByRequirement);
-  } catch (error) {
-    return res.status(500).json("Error getting workouts by its requirements", error);
-  }
-});
-
 router.post("/create",[isAuth], async (req, res) => {
     try {
       const workout = req.body;
