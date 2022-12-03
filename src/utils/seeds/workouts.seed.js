@@ -13,6 +13,11 @@ const workouts = [
         name: 'Rutina 2',
         requirements: ['Crecer musculo', 'Atleta'],
         exercise: ['Press Banca D', 'Press Banca A']
+    },
+    {
+      name: 'Rutina 3 de prueba',
+      requirements: ['Perder peso', 'Delgado y tonificado', 'Mesomorfo', 'Parte inferior', 'C'],
+      exercise: ['Press Banca C', 'Press Banca A']
     }
 ]
 
