@@ -7,9 +7,9 @@ const workouts = [
 {
   name: 'Rutina 1.1.1',
   requirements: ['Perder peso', 'Parte superior','A'],
-  day1: ['Jalón al pecho A', 'Remo máquina A','Dominadas A', 'Remo Mancuerna A','Curl alterno A','Curl polea A','Crunch A','Plancha A'],
-  day2: ['Press Banca plano A', ' Press Banca inclinado A','Press mancuerna plano A','Flexiones A','Shoulder press A','Elevación frontal A','Triceps polea A'],
-  day3: [' Sentadillas con barra A', 'Lunges A','Extensión cuadriceps A','Flexión de femoral A','Ascensión de cadera A','Deadlift A','Prensa piernas A','Oblicuos A']
+  day1: ['Jalón al pecho A', 'Remo máquina A', 'Remo Mancuerna A','Curl alterno A','Curl polea A','Crunch A'],
+  day2: ['Press Banca plano A', ' Press Banca inclinado A','Press mancuerna plano A','Flexiones A','Elevación frontal A','Triceps polea A'],
+  day3: [' Sentadillas con barra A','Extensión cuadriceps A','Flexión de femoral A','Ascensión de cadera A','Deadlift A','Prensa piernas A']
 },
 {
   name: 'Rutina 1.1.2',
