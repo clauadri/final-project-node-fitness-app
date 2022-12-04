@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const weightsSchema = new Schema(
     {
-        weight: {type: String, required: true},
+        weight: {type: Number, required: true},
     },
     {
         timestamps: true,   
