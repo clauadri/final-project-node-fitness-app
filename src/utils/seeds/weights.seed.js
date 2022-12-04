@@ -4,28 +4,28 @@ const Weight = require('../../api/weights/weights.model')
 
 const weights = [
     {
-        weight: '70'
+        weight: 70
     },
     {
-        weight: '56'
+        weight: 56
     },
     {
-        weight: '45'
+        weight: 45
     },
     {
-        weight: '89'
+        weight: 89
     },
     {
-        weight: '120'
+        weight: 120
     },
     {
-        weight: '105'
+        weight: 105
     },
     {
-        weight: '83'
+        weight: 83
     },
     {
-        weight: '72'
+        weight: 72
     },
 ]
 
