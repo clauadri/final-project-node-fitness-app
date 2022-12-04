@@ -202,6 +202,126 @@ const exercises = [
     rest: "30 segundos",
     img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Front-Raise_11804c3c-22d1-4589-a035-e30ad72149f3_600x600.png?v=1612138576"
   },
+  {
+    name: "Triceps polea A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Triceps-Pressdown_e759437b-6200-4b44-b484-14db770024a4_600x600.png?v=1612136845"
+  },
+  {
+    name: "Triceps polea B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Triceps-Pressdown_e759437b-6200-4b44-b484-14db770024a4_600x600.png?v=1612136845"
+  },
+  {
+    name: "Triceps polea C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Triceps-Pressdown_e759437b-6200-4b44-b484-14db770024a4_600x600.png?v=1612136845"
+  },
+  {
+    name: "Fondo Triceps A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bench-Dips_600x600.png?v=1619977992"
+  },
+  {
+    name: "Fondo Triceps B",
+    description: "4 x 12, 10, 10 , 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bench-Dips_600x600.png?v=1619977992"
+  },
+  {
+    name: "Fondo Triceps C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bench-Dips_600x600.png?v=1619977992"
+  },
+  {
+    name: "Flexiones Triceps A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Push-Ups_600x600.png?v=1640121436"
+  },
+  {
+    name: "Flexiones Triceps B",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Push-Ups_600x600.png?v=1640121436"
+  },
+  {
+    name: "Curl polea biceps A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Cable-Curl_6216e254-5f77-462c-9954-ea210fff8a70_600x600.png?v=1612137195"
+  },
+  {
+    name: "Curl polea biceps B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Cable-Curl_6216e254-5f77-462c-9954-ea210fff8a70_600x600.png?v=1612137195"
+  },
+  {
+    name: "Curl polea biceps C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Cable-Curl_6216e254-5f77-462c-9954-ea210fff8a70_600x600.png?v=1612137195"
+  },
+  {
+    name: "Curl biceps concentrado A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Concentration-Curl_289b5739-4bdd-40e6-a195-6ecfcc685126_600x600.png?v=1612137334"
+  },
+  {
+    name: "Curl biceps concentrado B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Concentration-Curl_289b5739-4bdd-40e6-a195-6ecfcc685126_600x600.png?v=1612137334"
+  },
+  {
+    name: "Curl biceps concentrado C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Concentration-Curl_289b5739-4bdd-40e6-a195-6ecfcc685126_600x600.png?v=1612137334"
+  },
+  {
+    name: "Curl biceps alterno A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    name: "Curl biceps alterno B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    name: "Curl biceps alterno C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    name: "Curl barra Z A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    name: "Curl barra Z B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
+  {
+    name: "Curl barra Z C",
+    description: "4 x 12",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+  },
 ];
 
 const exercisesDocuments = exercises.map((exercise) => new Exercise(exercise));
