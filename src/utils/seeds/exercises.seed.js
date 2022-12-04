@@ -308,19 +308,193 @@ const exercises = [
     name: "Curl barra Z A",
     description: "3 x 10",
     rest: "1 minuto",
-    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Curl_42cb566b-6415-4318-94e0-c93f4b442e59_600x600.png?v=1612137227"
   },
   {
     name: "Curl barra Z B",
     description: "4 x 12, 10, 10, 8",
     rest: "2 minutos",
-    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Curl_42cb566b-6415-4318-94e0-c93f4b442e59_600x600.png?v=1612137227"
   },
   {
     name: "Curl barra Z C",
     description: "4 x 12",
     rest: "30 segundos",
-    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Alternating-Dumbbell-Curl_ad879dc4-b4fb-4ca7-b2b1-6e1eb5d78252_600x600.png?v=1612137169"
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Curl_42cb566b-6415-4318-94e0-c93f4b442e59_600x600.png?v=1612137227"
+  },
+  {
+    name: "Plancha Abdominal",
+    description: "4 x 30 segundos",
+    rest: "30 segundos",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Plank_3a82d566-9cb2-4c20-b301-bc8bd635c4d1_600x600.png?v=1612138431"
+  },
+  {
+    name: "Oblicuos A",
+    description: "2 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Oblique-Crunch_253d0361-395d-443b-8228-aff440c1eee9_600x600.png?v=1612138354"
+  },
+  {
+    name: "Oblicuos B",
+    description: "4 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Oblique-Crunch_253d0361-395d-443b-8228-aff440c1eee9_600x600.png?v=1612138354"
+  },
+  {
+    name: "Crunch abdominal A",
+    description: "2 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Crunch_f3498d5d-82d9-4a7f-8dee-98a2e55a62f2_600x600.png?v=1612138317"
+  },
+  {
+    name: "Crunch abdominal B",
+    description: "4 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Crunch_f3498d5d-82d9-4a7f-8dee-98a2e55a62f2_600x600.png?v=1612138317"
+  },
+  {
+    name: "Elevación de piernas A",
+    description: "2 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Hanging-Leg-Raise_36986393-d0a6-494a-981f-4ea06a99b0b5_600x600.png?v=1612138457"
+  },
+  {
+    name: "Elevación de piernas B",
+    description: "4 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Hanging-Leg-Raise_36986393-d0a6-494a-981f-4ea06a99b0b5_600x600.png?v=1612138457"
+  },
+  {
+    name: "Elevación de rodillas A",
+    description: "2 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bent-Knee-Reverse-Crunch_600x600.png?v=1621163012"
+  },
+  {
+    name: "Elevación de rodillas B",
+    description: "4 x 20",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bent-Knee-Reverse-Crunch_600x600.png?v=1621163012"
+  },
+  {
+    name: "Sentadilla A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Squat_600x600.png?v=1653577860"
+  },
+  {
+    name: "Sentadilla B",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Squat_600x600.png?v=1653577860"
+  },
+  {
+    name: "Sentadilla con peso A",
+    description: "3 x 10",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Squat_d752e42d-02ba-4692-b300-c6e67ad5a4f5_600x600.png?v=1612138811"
+  },
+  {
+    name: "Sentadilla con peso B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "2 minutoS",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Squat_d752e42d-02ba-4692-b300-c6e67ad5a4f5_600x600.png?v=1612138811"
+  },
+  {
+    name: "Sentadilla con peso C",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Squat_d752e42d-02ba-4692-b300-c6e67ad5a4f5_600x600.png?v=1612138811"
+  },
+  {
+    name: "Elevación de cadera A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Hip-Thrust_600x600.png?v=1656402338"
+  },
+  {
+    name: "Elevación de cadera B",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Barbell-Hip-Thrust_600x600.png?v=1656402338"
+  },
+  {
+    name: "Abducción de cadera A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Hip-Abduction-Machine_600x600.png?v=1656405168"
+  },
+  {
+    name: "Abducción de cadera B",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Hip-Abduction-Machine_600x600.png?v=1656405168"
+  },
+  {
+    name: "Abducción de gluteo A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Hip-Abduction-Machine_600x600.png?v=1656405168"
+  },
+  {
+    name: "Abducción de gluteo B",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Seated-Hip-Abduction-Machine_600x600.png?v=1656405168"
+  },
+  {
+    name: "Prensa de piernas A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Press_f7febd5c-75e5-42f4-9bb4-c938969ce293_600x600.png?v=1612138836"
+  },
+  {
+    name: "Prensa de piernas B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Press_f7febd5c-75e5-42f4-9bb4-c938969ce293_600x600.png?v=1612138836"
+  },
+  {
+    name: "Prensa de piernas C",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Press_f7febd5c-75e5-42f4-9bb4-c938969ce293_600x600.png?v=1612138836"
+  },
+  {
+    name: "Extensión de cuadriceps A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Extension_41d91d3f-4b9c-4374-82e2-1d697ce35fe4_600x600.png?v=1612138862"
+  },
+  {
+    name: "Extensión de cuadriceps B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Extension_41d91d3f-4b9c-4374-82e2-1d697ce35fe4_600x600.png?v=1612138862"
+  },
+  {
+    name: "Extensión de cuadriceps C",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Extension_41d91d3f-4b9c-4374-82e2-1d697ce35fe4_600x600.png?v=1612138862"
+  },
+  {
+    name: "Femorales A",
+    description: "3 x 15",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Leg-Curl_203153d8-79dd-4bb9-9125-708aa4327107_600x600.png?v=1612139013"
+  },
+  {
+    name: "Femorales B",
+    description: "4 x 12, 10, 10, 8",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Leg-Curl_203153d8-79dd-4bb9-9125-708aa4327107_600x600.png?v=1612139013"
+  },
+  {
+    name: "Femorales C",
+    description: "4 x 12",
+    rest: "1 minuto",
+    img: "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Lying-Leg-Curl_203153d8-79dd-4bb9-9125-708aa4327107_600x600.png?v=1612139013"
   },
 ];
 
