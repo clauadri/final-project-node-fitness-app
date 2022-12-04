@@ -28,7 +28,7 @@ server.use('/', indexRoutes);
 server.use('/exercises', exercisesRoutes);
 server.use('/workouts', workoutsRoutes);
 server.use('/users', userRoutes);
-server.use('', weightsRoutes)
+server.use('/weights', weightsRoutes)
 
 server.use((error, req, res, next) => {
   return res
