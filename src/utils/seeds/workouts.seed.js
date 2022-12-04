@@ -7,18 +7,10 @@ const workouts = [
     {
         name: 'Rutina 1',
         requirements: ['Perder peso', 'Delgado'],
-        exercise: ['Press Banca A', 'Press Banca B', 'Press Banca C']
+        day1: ['Dominadas B', 'Jalón al pecho A'],
+        day2: ['Dominadas B', 'Jalón al pecho A'],
+        day3: ['Dominadas B', 'Jalón al pecho A']
     },
-    {
-        name: 'Rutina 2',
-        requirements: ['Crecer musculo', 'Atleta'],
-        exercise: ['Press Banca D', 'Press Banca A']
-    },
-    {
-      name: 'Rutina 3 de prueba',
-      requirements: ['Perder peso', 'Delgado y tonificado', 'Mesomorfo', 'Parte inferior', 'C'],
-      exercise: ['Press Banca C', 'Press Banca A']
-    }
 ]
 
 
@@ -31,15 +23,38 @@ connectDb()
   .catch((error) => console.log("Could not delete" + error))
   .then(async () => {
     for (const workout of workouts) {
-      const exercises = [...workout.exercise]; //
+      const exercises = [...workout.day1]; //
       let newExercise = [];
       for (const exercise of exercises) {
         const exerciseId = await Exercise.findOne({ name: exercise }).lean();
         newExercise = [...newExercise, exerciseId._id.toString()]
       
       }
-      workout.exercise = [...newExercise];
+      workout.day1 = [...newExercise];
     }
+
+    for (const workout of workouts) {
+      const exercises = [...workout.day2]; //
+      let newExercise = [];
+      for (const exercise of exercises) {
+        const exerciseId = await Exercise.findOne({ name: exercise }).lean();
+        newExercise = [...newExercise, exerciseId._id.toString()]
+      
+      }
+      workout.day2 = [...newExercise];
+    }
+
+    for (const workout of workouts) {
+      const exercises = [...workout.day3]; //
+      let newExercise = [];
+      for (const exercise of exercises) {
+        const exerciseId = await Exercise.findOne({ name: exercise }).lean();
+        newExercise = [...newExercise, exerciseId._id.toString()]
+      
+      }
+      workout.day3 = [...newExercise];
+    }
+    
     const workoutsDocuments = workouts.map((workout) => new Workout(workout));
     await Workout.insertMany(workoutsDocuments);
     console.log("Workouts added correctly");
