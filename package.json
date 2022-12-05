@@ -9,7 +9,7 @@
     "exercisesSeed": "node ./src/utils/seeds/exercises.seed.js",
     "workoutsSeed": "node ./src/utils/seeds/workouts.seed.js",
     "usersSeed":"node ./src/utils/seeds/users.seed.js",
-    "weightsSeed": "node ./src/utils/seeds/weights.seed.js"
+    "statsSeed": "node ./src/utils/seeds/stats.seed.js"
   },
   "repository": {
     "type": "git",
