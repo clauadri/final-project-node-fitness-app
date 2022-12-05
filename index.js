@@ -9,7 +9,7 @@ const indexRoutes = require('./src/api/index/index.routes')
 const exercisesRoutes = require('./src/api/workouts/exercises/exercises.routes')
 const workoutsRoutes = require('./src/api/workouts/workouts.routes')
 const userRoutes = require('./src/api/user/user.routes')
-const weightsRoutes = require('./src/api/weights/weights.routes')
+const statsRoutes = require('./src/api/stats/stats.routes')
 
 connectDb();
 
@@ -28,7 +28,7 @@ server.use('/', indexRoutes);
 server.use('/exercises', exercisesRoutes);
 server.use('/workouts', workoutsRoutes);
 server.use('/users', userRoutes);
-server.use('/weights', weightsRoutes)
+server.use('/stats', statsRoutes)
 
 server.use((error, req, res, next) => {
   return res
