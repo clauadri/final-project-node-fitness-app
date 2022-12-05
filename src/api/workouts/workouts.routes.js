@@ -2,9 +2,10 @@ const express = require("express");
 const router = express.Router();
 const Workout = require('./workouts.model')
 const { isAuth, isAdmin } = require("../../middleware/auth");
-router.get("/",[isAdmin], async (req, res) => {
+
+router.get("/", async (req, res) => {
     try {
-      const allWorkouts = await Workout.find().populate('exercise');
+      const allWorkouts = await Workout.find().populate(['day1', 'day2', 'day3']);
       return res.status(200).json(allWorkouts);
     } catch (error) {
       return res.status(500).json("Error getting workouts", error);
@@ -28,6 +29,7 @@ router.get("/name/:name",  async (req, res) => {
       return res.status(500).json("Error getting workouts by name", error);
     }
 });
+
 router.post("/create",[isAuth], async (req, res) => {
     try {
       const workout = req.body;
